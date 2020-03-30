@@ -1,0 +1,53 @@
+/*general style*/
+*, *::before, *::after{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+:root{
+    --mainColor : #7b5244;
+    --subColor : #333
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.list-unstyled{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+/*general style*/
+.pd-y{
+    padding: 40px 0;
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-title{
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+.line{
+    width: 80px;
+    height: 2px;
+    background-color: var(--mainColor);
+    display: block;
+    margin: auto;
+    transition: width .5s;
+}
+.section-header:hover .line{
+    width: 120px;
+}
+hr{
+    margin: 60px 0 0 0 ;
+}
